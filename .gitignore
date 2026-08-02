@@ -1,0 +1,10 @@
+# Claude Code session data
+.claude/
+
+# Node dependencies
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.tmp.*

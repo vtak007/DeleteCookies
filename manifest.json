@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Advanced Cookie Cleaner",
+  "version": "1.0",
+  "description": "Thoroughly clears cookies for the current website",
+  "permissions": [
+    "cookies",
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Clear Site Cookies"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
